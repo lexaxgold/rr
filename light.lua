@@ -43,6 +43,10 @@ BBTAB:NewButton("DEVIL", "GUI Menu Hack", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/DEVIL-Script/DEVIL-Hub/main/DEVIL-Hub-Main", true))()
 end)
 
+BBTAB:NewButton("AutoFarm", "GUI Menu Hack", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/DRjKK3U7", true))()
+end)
+
 -- Scripts Tab
 local Tab = Window:NewTab("Scripts")
 local SCTAB = Tab:NewSection("- Scripts -")
