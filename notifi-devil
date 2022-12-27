@@ -1,0 +1,7 @@
+wait(1.2)
+game.StarterGui:SetCore("SendNotification", {
+Title = "SUCCESFULLY LOADED"; -- the title (ofc)
+Text = "Hack is loaded succesfully. Press F9 button to see key of the cheat., - Security at it's finest"; -- what the text says (ofc)
+Icon = "rbxassetid://57254792"; -- the image if u want. 
+Duration = 5; -- how long the notification should in secounds
+})
